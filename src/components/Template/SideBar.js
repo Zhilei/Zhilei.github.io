@@ -12,18 +12,15 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/Zhilei_photo.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Zhilei Xu</h2>
         <p><a href="mailto:astro.zlxu@gmail.com">astro.zlxu@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hello, I am Zhilei Xu (sound Link to pronounce my name).
+      I am an astrophysicist interested in studying the beginning and the evolution of the Universe, especially through observing the       21-cm signal and cosmic microwave background (CMB). In addition, I am also interested in the formation and evolution of galaxies      and galaxy clusters. I am a member of the HERA collaboration in 21-cm and CLASS, SO, ACT, CMB-S4 collaborations in CMB.
       </p>
       <ul className="actions">
         <li>
