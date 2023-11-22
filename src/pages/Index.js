@@ -12,9 +12,9 @@ const Index = () => (
       <header>
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+          <p> This is the personal website for Zhilei Xu, who is interested in
+            solving challenging problems
+            with new technologies.
           </p>
         </div>
       </header>
