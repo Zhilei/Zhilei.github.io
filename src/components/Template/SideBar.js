@@ -14,19 +14,13 @@ const SideBar = () => (
       <header>
         <h2>Zhilei Xu</h2>
         <p><a href="mailto:astro.zlxu@gmail.com">astro.zlxu@gmail.com</a></p>
-        <p>Name Pronunciation
-          <audio controls>
-            <source src={`${PUBLIC_URL}/Zhilei_Xu_pron.mp4`} />
-            <track src={`${PUBLIC_URL}/Zhilei_Xu_pron.vtt`} kind="captions" srcLang="en" label="english_captions" />
-          </audio>
-        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
       <p>Hello, I am Zhilei Xu,
-        I am an astrophysicist interested in studying the beginning
+        an astrophysicist interested in studying the beginning
         and the evolution of the Universe,
         especially through observing the 21-cm signal and
         cosmic microwave background (CMB).
@@ -35,6 +29,15 @@ const SideBar = () => (
         I am a member of the HERA collaboration in 21-cm and CLASS, SO,
         ACT, CMB-S4 collaborations in CMB.
       </p>
+      <p>
+        I know my name is hard to pronounce, so here I recorded
+        a short audio to show the pronunciation.
+        <audio controls>
+          <source src={`${PUBLIC_URL}/Zhilei_Xu_pron.mp4`} />
+          <track src={`${PUBLIC_URL}/Zhilei_Xu_pron.vtt`} kind="captions" srcLang="en" label="english_captions" />
+        </audio>
+      </p>
+
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
