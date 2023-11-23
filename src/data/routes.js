@@ -4,10 +4,10 @@ const routes = [
     label: 'Zhilei xu',
     path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //  label: 'About',
+  //  path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',
@@ -16,17 +16,17 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
+  // {
+  //  label: 'Stats',
+  //  path: '/stats',
+  // },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Publications',
+    path: '/publications',
   },
   {
     label: 'Contact',
     path: '/contact',
-  },
-  {
-    label: 'Publications',
-    path: '/publications',
   },
 
 ];
