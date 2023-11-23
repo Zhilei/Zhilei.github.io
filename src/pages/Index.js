@@ -12,9 +12,10 @@ const Index = () => (
       <header>
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
-          <p> This is the personal website for Zhilei Xu, who is interested in
+          <p> This is Zhilei Xu&apos;s personal website, who is interested in
             solving challenging problems
-            with new technologies.
+            with new technologies, particularly answering how our universe
+            began and evolved into its current form.
           </p>
         </div>
       </header>
@@ -25,7 +26,7 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/Zhilei">here</a>.</p>
+      <p> Source available <a href="https://github.com/Zhilei/Zhilei.github.io">here</a>.</p>
     </article>
   </Main>
 );
